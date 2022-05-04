@@ -75,7 +75,6 @@ const Login = () => {
           <Form.Control
             ref={emailRef}
             type="email"
-            autoComplete="off"
             placeholder="Enter email"
             required
           />
@@ -85,7 +84,6 @@ const Login = () => {
           <Form.Control
             ref={passwordRef}
             type="password"
-            autoComplete="off"
             placeholder="Password"
             required
           />
